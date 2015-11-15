@@ -1,17 +1,17 @@
 {
     "name": "play",
-    "description": "play sound files from node.js to your speakers, simple as cake and kid approved!",
+    "description": "play sound files from node.js to your speakers.",
     "version": "0.5.0",
-    "author": "Marak Squires",
+    "author": "Olivier Oeuillot",
     "repository": {
         "type": "git", 
-        "url": "http://github.com/Marak/play.js.git" 
+        "url": "http://github.com/oeuillot/play.js.git" 
     },
     "dependencies": {
-       "colors": ">= 0.3.0"     
+       "debug": "latest"     
      },    
     "engine": [
-        "node >=0.1.90" 
+        "node >=4" 
     ],
     "main": "lib/play" 
 }
