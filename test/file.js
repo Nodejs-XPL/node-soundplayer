@@ -1,6 +1,6 @@
 var play = require('../lib/play');
 
-var p = play.sound("L_appel.mp3", function(error) {
+var p = play.sound("../wavs/drums/kick.wav", function(error) {
   if (error) {
     console.error(error);
     return;
