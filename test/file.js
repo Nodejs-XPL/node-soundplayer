@@ -1,16 +1,16 @@
 var Path = require('path');
-var Play = require('../lib/play');
+var Player = require('../lib/player');
 
-var play = new Play();
+var player = new Player();
 
-play.on("progress", function onProgress(percent) {
+player.on("progress", function onProgress(percent) {
   console.log("progress", percent);
 });
 
 var path = Path.join(__dirname, "../wavs/mp3/L_appel.mp3");
 
 console.log("Play ", path);
-var sound = play.playSound(path, function(error) {
+var sound = player.playSound(path, function(error) {
   if (error) {
     console.error(error);
     return;
