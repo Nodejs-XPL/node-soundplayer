@@ -7,7 +7,7 @@ play.on("progress", function onProgress(percent) {
   console.log("progress", percent);
 });
 
-var path = Path.join(__dirname, "../wavs/drums/kick.wav");
+var path = Path.join(__dirname, "../wavs/mp3/L_appel.mp3");
 
 console.log("Play ", path);
 play.sound(path, function(error) {
