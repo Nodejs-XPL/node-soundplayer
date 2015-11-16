@@ -8,7 +8,8 @@
         "url": "http://github.com/oeuillot/play.js.git" 
     },
     "dependencies": {
-       "debug": "latest"     
+       "debug": "latest",
+       "mime": "latest"
      },    
     "engine": [
         "node >=4" 
