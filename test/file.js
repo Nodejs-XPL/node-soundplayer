@@ -17,4 +17,4 @@ var sound = player.playSound(path, function(error) {
   }
 });
 
-console.log("UUID of sound=" + uuid);
+console.log("UUID of sound=" + sound.uuid);
