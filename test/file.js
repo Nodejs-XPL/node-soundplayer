@@ -10,9 +10,11 @@ play.on("progress", function onProgress(percent) {
 var path = Path.join(__dirname, "../wavs/mp3/L_appel.mp3");
 
 console.log("Play ", path);
-play.sound(path, function(error) {
+var sound = play.playSound(path, function(error) {
   if (error) {
     console.error(error);
     return;
   }
 });
+
+console.log("UUID of sound=" + uuid);

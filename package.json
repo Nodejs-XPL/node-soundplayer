@@ -14,5 +14,5 @@
     "engine": [
         "node >=4" 
     ],
-    "main": "lib/play" 
+    "main": "lib/player" 
 }
