@@ -9,7 +9,8 @@
     },
     "dependencies": {
        "debug": "latest",
-       "mime": "latest"
+       "mime": "latest",
+       "uuid": "latest"
      },    
     "engine": [
         "node >=4" 
