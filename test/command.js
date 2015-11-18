@@ -10,10 +10,9 @@ try {
 
 var player = new Player();
 
-commander.command('*').description("Start playing").action(function(args) {
+commander.command('*').description("Play a song").action(function(path) {
 
-  console.log("Play ", args);
-  var path = args[0];
+  console.log("Play ", path);
 
   var sound = player.playSound(path, function(error) {
     if (error) {
