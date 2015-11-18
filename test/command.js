@@ -1,6 +1,12 @@
 var Path = require('path');
 var Player = require('../lib/player');
-var commander = require('commander');
+
+var commander;
+try {
+  commander = require('commander');
+} catch (x) {
+  console.error("You must install commander to use this test !");
+}
 
 var player = new Player();
 
@@ -22,3 +28,5 @@ commander.command('*').description("Start playing").action(function(args) {
 
   console.log("UUID of sound=" + sound.uuid);
 });
+
+commander.parse(process.argv);
