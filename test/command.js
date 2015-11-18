@@ -3,7 +3,7 @@ var Player = require('../lib/player');
 
 var player = new Player();
 
-var path = process.argv[0];
+var path = process.argv[1];
 
 console.log("Play ", path);
 var sound = player.playSound(path, function(error) {
