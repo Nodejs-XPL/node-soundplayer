@@ -1,11 +1,11 @@
 {
-    "name": "play",
+    "name": "soundplayer",
     "description": "play sound files from node.js to your speakers.",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "author": "Olivier Oeuillot",
     "repository": {
         "type": "git", 
-        "url": "http://github.com/oeuillot/play.js.git" 
+        "url": "http://github.com/oeuillot/node-soundplayer.git" 
     },
     "dependencies": {
        "debug": "latest",
@@ -13,7 +13,7 @@
        "uuid": "latest"
      },    
     "engine": [
-        "node >=4" 
+        "node >=0.12" 
     ],
     "main": "lib/player" 
 }

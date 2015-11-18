@@ -1,18 +1,12 @@
-## play.js - play sound files from node.js to your speakers, simple as cake and kid approved!
-<img src = "https://github.com/Marak/play.js/raw/master/logo.png" border = "0"/>
-<img src = "https://github.com/Marak/play.js/raw/master/demo.png" border = "0"/>
-
-### Installing npm (node package manager)
-
-     curl http://npmjs.org/install.sh | sh
+## play.js - play sound files from node.js to your speakers 
 
 ### Installing play.js
 
-     npm install play
+     npm install soundplayer
 
 # USAGE
 
-      var play = require('play').Play();
+      var play = require('soundplayer').Player();
 
       // play with a callback
       play.sound('./wavs/sfx/intro.wav', function(){
@@ -40,19 +34,6 @@
 
      cd examples
      node demo.js
-
-## Web DEMO
-
-  Recommended that you use play.min.js for web-based playbacks
-  assumes you have already embedded the audio file as an embed tag
-
-      <embed id = "hat" autostart = "false" src = "./wavs/drums/tick.wav"/>
-      <embed id = "snare" autostart = "false" src = "./wavs/drums/snare.wav"/>
-      <embed id = "kick" autostart = "false" src = "./wavs/drums/kick.wav"/>
-
-  see examples/index.html 
-
-###drum party, now go to JSONloops => <a href = "http://github.com/marak/JSONloops">http://github.com/marak/JSONloops</a>
 
 ### Requirements
 
