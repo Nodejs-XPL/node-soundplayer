@@ -10,7 +10,8 @@
     "dependencies": {
        "debug": "latest",
        "mime": "latest",
-       "uuid": "latest"
+       "uuid": "latest",
+       "async": "latest"
      },    
     "engine": [
         "node >=0.12" 
