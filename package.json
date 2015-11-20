@@ -1,7 +1,7 @@
 {
     "name": "soundplayer",
     "description": "play sound files from node.js to your speakers.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Olivier Oeuillot",
     "repository": {
         "type": "git", 
